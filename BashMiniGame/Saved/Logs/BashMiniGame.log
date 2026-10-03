@@ -1835,3 +1835,231 @@ FPackageName: Skipped package /BashAssets/Character/Modular/Clothes/Bottoms/Pant
 [2026.10.03-22.57.35:334][147]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
 [2026.10.03-22.57.35:334][147]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
 [2026.10.03-22.57.35:334][147]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-22.57.50:179][147]LogSlate: Window 'Submit Files' being destroyed
+[2026.10.03-22.57.50:802][147]SourceControl: Error: Updated 0 paths from the index
+[2026.10.03-22.57.51:447][147]SourceControl: On branch main
+[2026.10.03-22.57.51:447][147]SourceControl: Your branch is ahead of 'origin/main' by 1 commit.
+[2026.10.03-22.57.51:447][147]SourceControl:   (use "git push" to publish your local commits)
+[2026.10.03-22.57.51:447][147]SourceControl: Changes not staged for commit:
+[2026.10.03-22.57.51:447][147]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2026.10.03-22.57.51:447][147]SourceControl:   (use "git restore <file>..." to discard changes in working directory)
+[2026.10.03-22.57.51:447][147]SourceControl: 	modified:   BashMiniGame/Saved/Logs/BashMiniGame.log
+[2026.10.03-22.57.51:447][147]SourceControl: Untracked files:
+[2026.10.03-22.57.51:447][147]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2026.10.03-22.57.51:447][147]SourceControl: 	BashMiniGame/Saved/Logs/Git-Temp5665D535487F86DAACA533B7C3C9DB9F.txt
+[2026.10.03-22.57.51:447][147]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2026.10.03-22.58.10:331][920]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.10.03-22.58.11:899][995]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.10.03-22.58.17:589][314]Cmd: TRANSACTION UNDO
+[2026.10.03-22.58.17:589][314]LogEditorTransaction: Undo Move Elements
+[2026.10.03-22.58.36:911][351]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: ================================================
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Total job queries 18,562, among them cache hits 3,417 (18.41%), DDC hits 12,343 (66.50%), Duplicates 2,039 (10.98%)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Tracking 13,106 distinct input hashes that result in 11,958 distinct outputs (91.24%)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: RAM used: 159.03 MiB of 819.20 MiB budget. Usage: 19.41%
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Shaders Compiled: 763
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Jobs assigned 763, completed 763 (100%)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Average time worker was idle: 2.91 s
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Time job spent in pending queue: average 5.68 s, longest 42.39 s
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Job execution time: average 6.58 s, max 39.61 s
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Job life time (pending + execution): average 12.26 s, max 46.30
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Shader code size: total 10.843 MiB, numShaders 798, average 13.914 KiB, min 2.105 KiB, max 55.505 KiB
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 138.38 s
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.23%
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Jobs were issued in 337 batches (only local compilation was used), average 2.26 jobs/batch
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Average processing rate: 5.51 jobs/sec
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Total thread time: 1,632.45 s
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Total thread preprocess time: 285.809 s
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Percentage time preprocessing: 17.51%
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Effective parallelization: 11.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 14 - 0.842629
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 8.85 sec, max 8.85 sec, min 8.85 sec)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    6 times, average 8.48 sec, max 23.65 sec, min 0.66 sec)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    6 times, average 7.15 sec, max 20.72 sec, min 0.11 sec)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 6.71 sec, max 6.71 sec, min 6.71 sec)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 6.33 sec, max 12.35 sec, min 3.45 sec)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 23.89% of total time (compiled   80 times, average 4.87 sec, max 12.21 sec, min 2.39 sec)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.55% of total time (compiled   63 times, average 2.21 sec, max 19.62 sec, min 0.34 sec)
+[2026.10.03-22.58.55:549][275]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 6.56% of total time (compiled   17 times, average 6.30 sec, max 39.40 sec, min 1.35 sec)
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 6.02% of total time (compiled   26 times, average 3.78 sec, max 32.32 sec, min 0.89 sec)
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 4.38% of total time (compiled   13 times, average 5.49 sec, max 15.02 sec, min 1.44 sec)
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: Materials Translated:    164
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: Material Total Translate Time: 0.24 s
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: Material Translation Only: 0.09 s (38%)
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.10.03-22.58.55:550][275]LogShaderCompilers: Display: ================================================
+[2026.10.03-22.58.57:175][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.58.57:194][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.58.57:227][361]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2026.10.03-22.58.57:376][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.58.57:477][361]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.59.13:130][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.59.13:220][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.59.13:312][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.59.13:405][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.03-22.59.22:699][696]Cmd: DELETE
+[2026.10.03-22.59.22:700][696]Cmd: ACTOR DELETE
+[2026.10.03-22.59.22:723][696]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.10.03-22.59.22:811][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.10.03-22.59.22:814][696]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2026.10.03-22.59.23:753][752]Cmd: TRANSACTION UNDO
+[2026.10.03-22.59.23:753][752]LogEditorTransaction: Undo Delete Elements
+[2026.10.03-22.59.24:359][761]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.10.03-22.59.45:812][940]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.10.03-23.00.01:931][858]Cmd: DELETE
+[2026.10.03-23.00.01:932][858]Cmd: ACTOR DELETE
+[2026.10.03-23.00.01:936][858]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.10.03-23.00.01:957][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.10.03-23.00.01:962][858]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.10.03-23.00.49:359][447]Cmd: DELETE
+[2026.10.03-23.00.49:359][447]Cmd: ACTOR DELETE
+[2026.10.03-23.00.49:364][447]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.10.03-23.00.49:389][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.10.03-23.00.49:393][447]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2026.10.03-23.01.10:975][654]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 331.127655
+[2026.10.03-23.01.11:090][661]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-23.01.11:090][661]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 331.227264, Update Interval: 345.724670
+[2026.10.03-23.01.50:278][774]Cmd: DELETE
+[2026.10.03-23.01.50:278][774]Cmd: ACTOR DELETE
+[2026.10.03-23.01.50:282][774]LogEditorActor: Deleted Actor: StaticMeshActor
+[2026.10.03-23.01.50:309][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.10.03-23.01.50:312][774]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: ================================================
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Total job queries 18,563, among them cache hits 3,417 (18.41%), DDC hits 12,343 (66.49%), Duplicates 2,039 (10.98%)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Tracking 13,107 distinct input hashes that result in 11,959 distinct outputs (91.24%)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: RAM used: 159.04 MiB of 819.20 MiB budget. Usage: 19.41%
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Shaders Compiled: 764
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Jobs assigned 764, completed 764 (100%)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Average time worker was idle: 3.20 s
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Time job spent in pending queue: average 5.67 s, longest 42.39 s
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Job execution time: average 6.57 s, max 39.61 s
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Job life time (pending + execution): average 12.24 s, max 46.30
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Shader code size: total 10.855 MiB, numShaders 800, average 13.896 KiB, min 2.105 KiB, max 55.505 KiB
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 139.74 s
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.23%
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Jobs were issued in 338 batches (only local compilation was used), average 2.26 jobs/batch
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Average processing rate: 5.47 jobs/sec
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Total thread time: 1,633.497 s
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Total thread preprocess time: 285.83 s
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Percentage time preprocessing: 17.50%
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Effective parallelization: 11.69 (times faster than compiling all shaders on one thread). Compare with number of workers: 14 - 0.834948
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 8.85 sec, max 8.85 sec, min 8.85 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    6 times, average 8.48 sec, max 23.65 sec, min 0.66 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    6 times, average 7.15 sec, max 20.72 sec, min 0.11 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 6.71 sec, max 6.71 sec, min 6.71 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 6.33 sec, max 12.35 sec, min 3.45 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 23.87% of total time (compiled   80 times, average 4.87 sec, max 12.21 sec, min 2.39 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.54% of total time (compiled   63 times, average 2.21 sec, max 19.62 sec, min 0.34 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 6.55% of total time (compiled   17 times, average 6.30 sec, max 39.40 sec, min 1.35 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 6.01% of total time (compiled   26 times, average 3.78 sec, max 32.32 sec, min 0.89 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 4.37% of total time (compiled   13 times, average 5.49 sec, max 15.02 sec, min 1.44 sec)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Materials Translated:    164
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Material Total Translate Time: 0.24 s
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Material Translation Only: 0.09 s (38%)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.10.03-23.01.55:545][ 49]LogShaderCompilers: Display: ================================================
+[2026.10.03-23.04.04:317][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.10.03-23.04.05:036][285]LogSlate: Window 'Save Content' being destroyed
+[2026.10.03-23.04.05:285][285]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-23.04.05:432][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2026.10.03-23.04.05:581][285]LogSavePackage: Moving output files for package: /Game/MinigameLevel_Ashlyn
+[2026.10.03-23.04.05:582][285]LogSavePackage: Moving '../../../../../../Users/yusom/Desktop/U/UUOurBashMiniGame/BashMiniGame/Saved/MinigameLevel_Ashlyn2C31A11F4548D7DA83839BA46CA4BA50.tmp' to '../../../../../../Users/yusom/Desktop/U/UUOurBashMiniGame/BashMiniGame/Content/MinigameLevel_Ashlyn.umap'
+[2026.10.03-23.04.05:598][285]LogFileHelpers: Saving map 'MinigameLevel_Ashlyn' took 0.211
+[2026.10.03-23.04.05:618][285]LogFileHelpers: InternalPromptForCheckoutAndSave took 332.800 ms (total: 762.865 ms)
+[2026.10.03-23.04.05:737][285]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.03-23.04.05:737][285]LogContentValidation: Enabled validators:
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-23.04.05:737][285]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-23.04.05:737][285]AssetCheck: /Game/MinigameLevel_Ashlyn Validating asset
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/ObjectMixer/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ObjectMixer/LightMixer/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Runtime/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ToolPresets/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryFlow/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryDataflow/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorageFeatures/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/EditorDataStorage/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/Dataflow/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Experimental/ChaosCaching/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/NamingTokens/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/RigLogic/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/TweeningUtils/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/SkeletalMeshModelingTools/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigModules/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/DeformerGraph/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ACLPlugin/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/MetaHuman/MetaHumanSDK/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:753][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/VirtualProduction/CameraCalibrationCore/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/WaveTable/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/StateTree/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/RigVM/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/PropertyBindingUtils/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/Metasound/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Runtime/AudioWidgets/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/NNE/NNEDenoiser/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaPlate/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/NiagaraSimCaching/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/FX/Cascade/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/GLTFExporter/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UMGWidgetPreview/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/UVEditor/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/ModelingToolsEditorMode/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/MeshLODToolset/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Editor/BlueprintHeaderView/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Cameras/GameplayCameras/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Mutable/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Mutable/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Fab/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/ChaosVD/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.15:754][858]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/yusom/Desktop/U/UUOurBashMiniGame'
+[2026.10.03-23.04.19:828][858]LogSlate: Window 'Submit Files' being destroyed
+[2026.10.03-23.04.20:392][858]LogSourceControl: commit successful: [main e423369] test2
+[2026.10.03-23.04.20:478][858]SourceControl: [main e423369] test2
+[2026.10.03-23.04.20:478][858]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2026.10.03-23.04.20:497][858]SourceControl: Commited [main e423369] test2.
