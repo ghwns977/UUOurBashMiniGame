@@ -3296,3 +3296,1400 @@ Sampler Limit: 32
 [2026.10.03-20.03.35:007][298]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
 [2026.10.03-20.03.35:007][298]AssetCheck: /Game/Material/PostProcess/MM_VertexAnim Validating asset
 [2026.10.03-20.03.35:024][299]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Total job queries 2,507, among them cache hits 1,220 (48.66%), DDC hits 547 (21.82%), Duplicates 228 (9.09%)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Tracking 1,059 distinct input hashes that result in 730 distinct outputs (68.93%)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: RAM used: 7.08 MiB of 1.60 GiB budget. Usage: 0.43%
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Shaders Compiled: 512
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Jobs assigned 512, completed 512 (100%)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Average time worker was idle: 47.29 s
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Time job spent in pending queue: average 0.37 s, longest 6.51 s
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Job execution time: average 1.21 s, max 9.04 s
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Job life time (pending + execution): average 1.58 s, max 9.30
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Shader code size: total 4.359 MiB, numShaders 556, average 8.029 KiB, min 1.727 KiB, max 23.859 KiB
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 62.92 s
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Jobs were issued in 453 batches (only local compilation was used), average 1.13 jobs/batch
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Average processing rate: 8.14 jobs/sec
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Total thread time: 244.051 s
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Total thread preprocess time: 28.449 s
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Percentage time preprocessing: 11.66%
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Effective parallelization: 3.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.323242
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    8 times, average 1.13 sec, max 2.17 sec, min 0.68 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                               FHWRasterizePS - 12.17% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.47% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                                  FVelocityPS - 8.30% of total time (compiled   37 times, average 0.55 sec, max 0.80 sec, min 0.40 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 6.15% of total time (compiled   26 times, average 0.58 sec, max 0.88 sec, min 0.49 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> - 5.48% of total time (compiled   42 times, average 0.32 sec, max 0.41 sec, min 0.14 sec)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Materials Translated:    282
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.03.49:383][412]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.04.02:060][451]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1996.492065
+[2026.10.03-20.04.03:060][454]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-20.04.03:060][454]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1997.158325, Update Interval: 306.460144
+[2026.10.03-20.06.55:428][111]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.10.03-20.06.55:436][111]LogContentBrowser: Creating deferred item: NewFolder
+[2026.10.03-20.06.55:447][112]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.10.03-20.06.58:402][395]LogContentBrowser: Attempting asset rename: NewFolder -> VFXs
+[2026.10.03-20.06.58:402][395]LogContentBrowser: End creating deferred item NewFolder
+[2026.10.03-20.07.01:134][642]LogStreaming: Display: FlushAsyncLoading(603): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.07.01:168][642]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.10.03-20.07.05:708][642]LogSlate: Window 'Create Niagara System - Select an emitter or system as a base' being destroyed
+[2026.10.03-20.07.06:356][642]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.07.06:356][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.07.06:365][642]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2026.10.03-20.07.06:388][642]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.10.03-20.07.06:422][642]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2026.10.03-20.07.06:428][642]LogAutomationController: Ignoring very large delta of 5.30 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.07.06:448][644]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2026.10.03-20.07.10:137][997]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NS_Bloom
+[2026.10.03-20.07.11:121][997]LogNiagara: Compiling System NiagaraSystem /HairStrands/Emitters/GroomRodsSystem.GroomRodsSystem took 0.984081 sec (time since issued).
+[2026.10.03-20.07.11:160][997]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2026.10.03-20.07.11:206][999]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.058828 sec (time since issued).
+[2026.10.03-20.07.11:640][ 29]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom
+[2026.10.03-20.07.11:705][ 29]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.10.03-20.07.11:747][ 29]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.10.03-20.07.12:074][ 29]LogSlate: Took 0.005285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.10.03-20.07.12:846][ 68]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 1.136078 sec (time since issued).
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: System successfully compiled with 34 warnings.
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2833:250: note: variable 'OutMaterialMultiplier' is declared here
+	void SolveDistanceSpringMaterial_Emitter_HairStrands (in bool EnableConstraint, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, in float MaterialCompliance, in float MaterialWeight, in float MaterialMultiplier, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                         ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2843:7: note: remove the 'if' if its condition is always true
+	        else if(NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2847:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2843:10: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if(NodeOffset == 2)
+	                ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2817:248: note: variable 'OutMaterialMultiplier' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                       ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2831:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:11: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2817:219: note: variable 'OutMaterialWeight' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                          ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2831:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:11: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2817:186: note: variable 'OutMaterialCompliance' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                         ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2831:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:11: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:196:18: warning: implicit truncation of vector type [-Wconversion]
+	        ControlPoint += DeformedSampleOffset;
+	                        ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:183:41: warning: implicit truncation of vector type [-Wconversion]
+	        float3 ControlPoint = RestControlPoint-RestSampleOffset;
+	                                               ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:016][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:233:129: note: variable 'OutMaterialWeight' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                                                       ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 0 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:254:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:6: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 0 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:233:96: note: variable 'OutMaterialCompliance' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                      ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 0 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:254:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:6: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 0 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:123:129: note: variable 'OutMaterialWeight' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                                                       ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 1 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:141:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:6: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 1 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:123:96: note: variable 'OutMaterialCompliance' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                      ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 1 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:141:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.13:017][ 76]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:6: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 1 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.37:298][502]LogStreaming: Display: FlushAsyncLoading(605): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.07.45:540][ 25]LogStreaming: Display: FlushAsyncLoading(606): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.07.45:629][ 25]LogTexture: Display: Building textures: /Niagara/DefaultAssets/Templates/Emitters/Minimal.Minimal:ThumbnailTexture (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2026.10.03-20.07.47:292][124]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.10.03-20.07.54:295][124]LogStreaming: Display: FlushAsyncLoading(607): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.07.54:365][124]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2026.10.03-20.07.54:375][124]LogTexture: Display: Building textures: /HairStrands/Emitters/StableSpringsEmitter.StableSpringsEmitter:ThumbnailTexture (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2026.10.03-20.07.54:547][124]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.07.54:555][124]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.07.54:555][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.07.54:662][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.10.03-20.07.54:718][124]LogAutomationController: Ignoring very large delta of 7.44 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.07.55:465][156]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 1.044781 sec (time since issued).
+[2026.10.03-20.07.55:481][157]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.001257 sec (time since issued).
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: System successfully compiled with 52 warnings.
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2833:250: note: variable 'OutMaterialMultiplier' is declared here
+	void SolveDistanceSpringMaterial_Emitter_HairStrands (in bool EnableConstraint, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, in float MaterialCompliance, in float MaterialWeight, in float MaterialMultiplier, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                         ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2843:7: note: remove the 'if' if its condition is always true
+	        else if(NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2847:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2843:10: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if(NodeOffset == 2)
+	                ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2817:248: note: variable 'OutMaterialMultiplier' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                       ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2831:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:11: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2817:219: note: variable 'OutMaterialWeight' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                          ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2831:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:11: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2817:186: note: variable 'OutMaterialCompliance' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                         ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2831:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2827:11: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:196:18: warning: implicit truncation of vector type [-Wconversion]
+	        ControlPoint += DeformedSampleOffset;
+	                        ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:698][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:183:41: warning: implicit truncation of vector type [-Wconversion]
+	        float3 ControlPoint = RestControlPoint-RestSampleOffset;
+	                                               ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:233:129: note: variable 'OutMaterialWeight' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                                                       ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 0 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:254:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:6: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 0 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:233:96: note: variable 'OutMaterialCompliance' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                      ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 0 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:254:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:236:6: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 0 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:123:129: note: variable 'OutMaterialWeight' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                                                       ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 1 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:141:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:6: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 1 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:123:96: note: variable 'OutMaterialCompliance' is declared here
+	        in float RestLength, in float DeltaTime, in bool ProjectConstraint, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float3 OutMaterialMultiplier)
+	                                                                                                      ^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:2: note: remove the 'if' if its condition is always true
+	        if( LocalIndex > 1 )
+	        ^~~~~~~~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:141:1: note: uninitialized use occurs here
+	}
+	^ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Plugin/Runtime/HairStrands/Private/NiagaraCosseratRodMaterial.ush:126:6: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        if( LocalIndex > 1 )
+	            ^~~~~~~~~~~~~~ GroomRodsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2732:250: note: variable 'OutMaterialMultiplier' is declared here
+	void SolveDistanceSpringMaterial_Emitter_HairStrands (in bool EnableConstraint, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, in float MaterialCompliance, in float MaterialWeight, in float MaterialMultiplier, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                         ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2742:7: note: remove the 'if' if its condition is always true
+	        else if(NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2746:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2742:10: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if(NodeOffset == 2)
+	                ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2716:248: note: variable 'OutMaterialMultiplier' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                       ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2730:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:11: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2716:219: note: variable 'OutMaterialWeight' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                          ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2730:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:11: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2716:186: note: variable 'OutMaterialCompliance' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                         ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2730:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:11: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:196:18: warning: implicit truncation of vector type [-Wconversion]
+	        ControlPoint += DeformedSampleOffset;
+	                        ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.55:699][168]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:183:41: warning: implicit truncation of vector type [-Wconversion]
+	        float3 ControlPoint = RestControlPoint-RestSampleOffset;
+	                                               ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:116][303]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.308146 sec (time since issued).
+[2026.10.03-20.07.58:127][304]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000745 sec (time since issued).
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: System successfully compiled with 18 warnings.
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2732:250: note: variable 'OutMaterialMultiplier' is declared here
+	void SolveDistanceSpringMaterial_Emitter_HairStrands (in bool EnableConstraint, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, in float MaterialCompliance, in float MaterialWeight, in float MaterialMultiplier, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                         ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2742:7: note: remove the 'if' if its condition is always true
+	        else if(NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2746:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2742:10: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if(NodeOffset == 2)
+	                ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2716:248: note: variable 'OutMaterialMultiplier' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                                                       ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2730:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:11: warning: parameter 'OutMaterialMultiplier' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2716:219: note: variable 'OutMaterialWeight' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                                                          ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2730:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:11: warning: parameter 'OutMaterialWeight' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2716:186: note: variable 'OutMaterialCompliance' is declared here
+	void SetupDistanceSpringMaterial_Emitter_HairStrands(in float YoungModulus, in float RodThickness, in float RestLength, in float DeltaTime, in int NodeOffset, in float MaterialDamping, out float OutMaterialCompliance, out float OutMaterialWeight, out float OutMaterialMultiplier)
+	                                                                                                                                                                                         ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:7: note: remove the 'if' if its condition is always true
+	        else if( NodeOffset == 2)
+	             ^~~~~~~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2730:1: note: uninitialized use occurs here
+	}
+	^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:2726:11: warning: parameter 'OutMaterialCompliance' is used uninitialized whenever 'if' condition is false [-Wparameter-usage]
+	        else if( NodeOffset == 2)
+	                 ^~~~~~~~~~~~~~~ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:196:18: warning: implicit truncation of vector type [-Wconversion]
+	        ControlPoint += DeformedSampleOffset;
+	                        ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.07.58:264][312]120529_NS_Bloom_MessageLog: Warning: /Engine/Private/HairStrands/HairStrandsBindingCommon.ush:183:41: warning: implicit truncation of vector type [-Wconversion]
+	        float3 ControlPoint = RestControlPoint-RestSampleOffset;
+	                                               ^ StableSpringsEmitter, Particle GPU Compute Script, 
+[2026.10.03-20.08.01:748][515]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.218484 sec (time since issued).
+[2026.10.03-20.08.01:763][516]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000134 sec (time since issued).
+[2026.10.03-20.08.01:846][521]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.08.02:841][580]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.10.03-20.08.04:197][580]LogStreaming: Display: FlushAsyncLoading(608): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.08.04:667][580]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.08.04:673][580]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.08.04:673][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.08.04:721][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.10.03-20.08.05:197][599]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.689175 sec (time since issued).
+[2026.10.03-20.08.05:212][600]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.001019 sec (time since issued).
+[2026.10.03-20.08.05:387][607]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.08.08:358][774]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.027691 sec (time since issued).
+[2026.10.03-20.08.08:373][775]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000140 sec (time since issued).
+[2026.10.03-20.08.08:457][780]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.08.09:432][838]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.10.03-20.08.11:968][838]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.08.11:975][838]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.08.11:975][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.08.12:001][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.03-20.08.12:012][838]LogAutomationController: Ignoring very large delta of 2.60 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.08.14:150][961]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.10.03-20.08.29:625][961]LogStreaming: Display: FlushAsyncLoading(617): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.08.29:719][961]LogStaticMesh: Display: Building static mesh S_Arrow (Required Memory Estimate: 0.252082 MB)...
+[2026.10.03-20.08.29:721][961]LogStaticMesh: Built static mesh [0.00s] /Niagara/DefaultAssets/S_Arrow.S_Arrow
+[2026.10.03-20.08.29:723][961]LogTexture: Display: Building textures: /Niagara/VectorFields/VectorFieldArrowEmitter.VectorFieldArrowEmitter:Texture2D_2 (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2026.10.03-20.08.29:840][961]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.08.29:849][961]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.08.29:849][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.08.29:948][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.10.03-20.08.29:997][961]LogAutomationController: Ignoring very large delta of 15.86 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.08.30:338][972]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.564759 sec (time since issued).
+[2026.10.03-20.08.30:352][973]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000571 sec (time since issued).
+[2026.10.03-20.08.30:511][980]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.08.34:114][191]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.034173 sec (time since issued).
+[2026.10.03-20.08.34:130][192]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000133 sec (time since issued).
+[2026.10.03-20.08.34:213][197]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.08.35:058][247]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.10.03-20.08.38:032][247]LogStreaming: Display: FlushAsyncLoading(618): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.08.38:327][247]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.08.38:335][247]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.08.38:335][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.08.38:382][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.03-20.08.38:427][247]LogAutomationController: Ignoring very large delta of 3.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.08.39:035][272]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.848139 sec (time since issued).
+[2026.10.03-20.08.39:051][273]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.001064 sec (time since issued).
+[2026.10.03-20.08.39:410][281]120529_NS_Bloom_MessageLog: System successfully compiled with 2 warnings.
+[2026.10.03-20.08.39:410][281]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:1289:11: note: previous definition is here
+	        for (int i = 0 ; i < In_RejectionSamples ; i++)
+	                 ^ RecycleParticlesInView, Particle GPU Compute Script, 
+[2026.10.03-20.08.39:410][281]120529_NS_Bloom_MessageLog: Warning: /Engine/Generated/NiagaraEmitterInstance.ush:1429:10: warning: redefinition of 'i' shadows declaration in the outer scope; most recent declaration will be used [-Wfor-redefinition]
+	        for(int i = 0; i < 5 ; i++)
+	                ^ RecycleParticlesInView, Particle GPU Compute Script, 
+[2026.10.03-20.08.41:414][399]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.031468 sec (time since issued).
+[2026.10.03-20.08.41:429][400]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000133 sec (time since issued).
+[2026.10.03-20.08.41:512][405]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.08.42:208][446]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2026.10.03-20.08.45:474][446]LogStreaming: Display: FlushAsyncLoading(619): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.08.45:524][446]LogTexture: Display: Building textures: /Niagara/DefaultAssets/Templates/BehaviorExamples/WorkingWithAttributes.WorkingWithAttributes:ThumbnailTexture (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2026.10.03-20.08.45:698][446]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.08.45:704][446]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.08.45:704][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.08.45:749][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.10.03-20.08.45:803][446]LogAutomationController: Ignoring very large delta of 3.61 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.08.46:100][455]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.531134 sec (time since issued).
+[2026.10.03-20.08.46:114][456]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.001030 sec (time since issued).
+[2026.10.03-20.08.46:319][463]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.09.38:016][506]LogStreaming: Display: FlushAsyncLoading(620): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.09.38:759][506]LogNiagaraEditor: Niagara graph NiagaraGraph /Niagara/DynamicInputs/LinearColor/MakeLinearColorFromHSV.MakeLinearColorFromHSV:NiagaraScriptSource_0.NiagaraGraph_0: The default value declaration for the variable 'Module.Alpha' is not consistent between the graph and the metadata.
+  Either change the default mode to 'custom' or check the input pins in the parameter map get node in the graph.
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Total job queries 2,620, among them cache hits 1,240 (47.33%), DDC hits 559 (21.34%), Duplicates 228 (8.70%)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Tracking 1,152 distinct input hashes that result in 809 distinct outputs (70.23%)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: RAM used: 7.99 MiB of 1.60 GiB budget. Usage: 0.49%
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Shaders Compiled: 593
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Jobs assigned 593, completed 593 (100%)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Average time worker was idle: 47.85 s
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Time job spent in pending queue: average 0.33 s, longest 6.51 s
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 9.04 s
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Job life time (pending + execution): average 1.43 s, max 9.30
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Shader code size: total 5.432 MiB, numShaders 644, average 8.638 KiB, min 1.167 KiB, max 97.793 KiB
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 75.17 s
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Jobs were issued in 534 batches (only local compilation was used), average 1.11 jobs/batch
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Average processing rate: 7.89 jobs/sec
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Total thread time: 267.268 s
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Total thread preprocess time: 29.232 s
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Percentage time preprocessing: 10.94%
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Effective parallelization: 3.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.296287
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 1.01 sec, max 2.17 sec, min 0.64 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.11% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.65% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                                  FVelocityPS - 8.57% of total time (compiled   43 times, average 0.53 sec, max 0.80 sec, min 0.34 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 7.11% of total time (compiled   33 times, average 0.58 sec, max 0.88 sec, min 0.45 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.32% of total time (compiled   52 times, average 0.27 sec, max 0.40 sec, min 0.16 sec)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Materials Translated:    287
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.09.49:392][ 93]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.09.54:623][395]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2349.066895
+[2026.10.03-20.09.54:769][404]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-20.09.54:769][404]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2349.195801, Update Interval: 351.296722
+[2026.10.03-20.10.18:276][794]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.027760 sec (time since issued).
+[2026.10.03-20.10.18:292][795]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000131 sec (time since issued).
+[2026.10.03-20.10.18:375][800]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.10.19:431][863]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2026.10.03-20.10.27:085][863]LogStreaming: Display: FlushAsyncLoading(848): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.10.27:091][863]LogTexture: Display: Building textures: /Niagara/DefaultAssets/Templates/BehaviorExamples/SpawnInterpolation.SpawnInterpolation:ThumbnailTexture (TFO_DXT1, 512x512 x1x1x1) (Required Memory Estimate: 30.83325 MB), EncodeSpeed: Fast
+[2026.10.03-20.10.27:222][863]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.10.27:230][863]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.10.27:230][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.10.27:269][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.10.03-20.10.27:318][863]LogAutomationController: Ignoring very large delta of 7.90 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.10.27:651][871]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.525241 sec (time since issued).
+[2026.10.03-20.10.27:668][872]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000716 sec (time since issued).
+[2026.10.03-20.10.27:814][879]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.10.33:981][246]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.032311 sec (time since issued).
+[2026.10.03-20.10.33:996][247]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000147 sec (time since issued).
+[2026.10.03-20.10.34:079][252]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.10.34:946][304]Cmd: TRANSACTION UNDO
+[2026.10.03-20.10.34:946][304]LogEditorTransaction: Undo Delete current selection
+[2026.10.03-20.10.35:112][305]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.159127 sec (time since issued).
+[2026.10.03-20.10.35:116][305]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.098478 sec (time since issued).
+[2026.10.03-20.10.36:085][345]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Total job queries 2,624, among them cache hits 1,240 (47.26%), DDC hits 559 (21.30%), Duplicates 228 (8.69%)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Tracking 1,156 distinct input hashes that result in 812 distinct outputs (70.24%)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: RAM used: 8.04 MiB of 1.60 GiB budget. Usage: 0.49%
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Shaders Compiled: 597
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Jobs assigned 597, completed 597 (100%)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Average time worker was idle: 48.26 s
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Time job spent in pending queue: average 0.33 s, longest 6.51 s
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 9.04 s
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Job life time (pending + execution): average 1.42 s, max 9.30
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Shader code size: total 5.478 MiB, numShaders 648, average 8.656 KiB, min 1.167 KiB, max 97.793 KiB
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 75.51 s
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Jobs were issued in 538 batches (only local compilation was used), average 1.11 jobs/batch
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Average processing rate: 7.91 jobs/sec
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Total thread time: 267.464 s
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Total thread preprocess time: 29.233 s
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Percentage time preprocessing: 10.93%
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Effective parallelization: 3.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.295173
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 1.01 sec, max 2.17 sec, min 0.64 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.11% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.64% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                                  FVelocityPS - 8.56% of total time (compiled   43 times, average 0.53 sec, max 0.80 sec, min 0.34 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 7.11% of total time (compiled   33 times, average 0.58 sec, max 0.88 sec, min 0.45 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.31% of total time (compiled   52 times, average 0.27 sec, max 0.40 sec, min 0.16 sec)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Materials Translated:    287
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.12.49:566][593]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.16.06:923][185]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/UE_5.6/Engine/Source/Developer/MassEntityTestSuite/Public/MassEntityTestFarmPlot.h 
+[2026.10.03-20.16.07:136][185]LogWindows: Launch application code for C:/Program Files/Epic Games/UE_5.6/Engine/Source/Developer/MassEntityTestSuite/Public/MassEntityTestFarmPlot.h : 42
+[2026.10.03-20.16.07:136][185]LogWindows: LaunchFileInExternalEditor C:/Program Files/Epic Games/UE_5.6/Engine/Source/Developer/MassEntityTestSuite/Private/MassEntityTestFarmPlot.cpp 
+[2026.10.03-20.16.36:639][185]LogWindows: Launch application code for C:/Program Files/Epic Games/UE_5.6/Engine/Source/Developer/MassEntityTestSuite/Private/MassEntityTestFarmPlot.cpp : 42
+[2026.10.03-20.16.36:639][185]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:644][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:645][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:646][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:647][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:648][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:649][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:654][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:654][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:667][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:667][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:686][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:686][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:689][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:690][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:690][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:690][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:690][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:690][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:690][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:697][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:698][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:699][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:700][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:701][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:702][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:706][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:706][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:713][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:713][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:728][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:728][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:730][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:730][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:730][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:730][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:730][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:731][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:731][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:731][185]LogVSAccessor: Warning: Couldn't access module table
+[2026.10.03-20.16.36:765][185]LogAutomationController: Ignoring very large delta of 30.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.16.36:765][185]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2751.210693
+[2026.10.03-20.16.37:445][188]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-20.16.37:445][188]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2751.562012, Update Interval: 344.232300
+[2026.10.03-20.18.02:061][101]LogEditorTransaction: Undo Move Key
+[2026.10.03-20.18.02:069][101]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000663 sec (time since issued).
+[2026.10.03-20.18.02:122][101]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000634 sec (time since issued).
+[2026.10.03-20.18.02:408][106]Cmd: TRANSACTION UNDO
+[2026.10.03-20.18.02:408][106]LogEditorTransaction: Undo Move Key
+[2026.10.03-20.18.02:415][106]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000629 sec (time since issued).
+[2026.10.03-20.18.02:470][106]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000635 sec (time since issued).
+[2026.10.03-20.18.02:683][112]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.18.04:650][230]Cmd: TRANSACTION UNDO
+[2026.10.03-20.18.04:650][230]LogEditorTransaction: Undo Add emitter
+[2026.10.03-20.18.04:699][231]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.032444 sec (time since issued).
+[2026.10.03-20.18.04:699][231]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.026566 sec (time since issued).
+[2026.10.03-20.18.04:781][236]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.18.07:460][396]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2026.10.03-20.18.14:654][396]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.18.14:661][396]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.18.14:661][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.18.14:712][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.03-20.18.14:756][396]LogAutomationController: Ignoring very large delta of 7.31 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.18.14:928][398]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.356307 sec (time since issued).
+[2026.10.03-20.18.14:947][399]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000805 sec (time since issued).
+[2026.10.03-20.18.15:139][406]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.20.07:584][997]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.641530 sec (time since issued).
+[2026.10.03-20.20.07:590][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-20.20.07:645][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VFXs/NS_Bloom] ([1] browsable assets)...
+[2026.10.03-20.20.07:645][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/VFXs/NS_Bloom]
+[2026.10.03-20.20.07:645][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VFXs/NS_Bloom" FILE="../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/VFXs/NS_Bloom.uasset" SILENT=true
+[2026.10.03-20.20.07:707][997]LogSavePackage: Moving output files for package: /Game/VFXs/NS_Bloom
+[2026.10.03-20.20.07:707][997]LogSavePackage: Moving '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Saved/NS_Bloom0C2914E54D3E9D7BF7345EAE6A8EBA11.tmp' to '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/VFXs/NS_Bloom.uasset'
+[2026.10.03-20.20.07:717][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.259 ms (total: 1.10 sec)
+[2026.10.03-20.20.07:823][997]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.106698 sec (time since issued).
+[2026.10.03-20.20.07:874][997]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.03-20.20.07:874][997]LogContentValidation: Enabled validators:
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-20.20.07:874][997]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-20.20.07:874][997]AssetCheck: /Game/VFXs/NS_Bloom Validating asset
+[2026.10.03-20.20.07:903][998]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.03-20.20.23:700][922]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.20.23:880][932]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.234492 sec (time since issued).
+[2026.10.03-20.20.25:710][ 40]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.20.57:272][911]Cmd: TRANSACTION UNDO
+[2026.10.03-20.20.57:272][911]LogEditorTransaction: Undo Edit input local value.
+[2026.10.03-20.20.57:475][912]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.192916 sec (time since issued).
+[2026.10.03-20.20.57:479][912]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.139771 sec (time since issued).
+[2026.10.03-20.20.57:859][919]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.21.07:101][454]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom
+[2026.10.03-20.21.07:101][454]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom
+[2026.10.03-20.21.07:102][454]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom as actor: NiagaraActor /Game/MinigameLevel_Ashlyn.MinigameLevel_Ashlyn:PersistentLevel.NiagaraActor_0
+[2026.10.03-20.21.07:103][454]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom as actor: NiagaraActor /Game/MinigameLevel_Ashlyn.MinigameLevel_Ashlyn:PersistentLevel.NiagaraActor_0
+[2026.10.03-20.21.07:600][482]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.03-20.21.07:605][482]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2026.10.03-20.21.07:610][482]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom
+[2026.10.03-20.21.07:610][482]LogActorFactory: Actor Factory attempting to spawn NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom
+[2026.10.03-20.21.07:612][482]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom as actor: NiagaraActor /Game/MinigameLevel_Ashlyn.MinigameLevel_Ashlyn:PersistentLevel.NiagaraActor_1
+[2026.10.03-20.21.07:612][482]LogActorFactory: Actor Factory spawned NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom as actor: NiagaraActor /Game/MinigameLevel_Ashlyn.MinigameLevel_Ashlyn:PersistentLevel.NiagaraActor_1
+[2026.10.03-20.21.33:297][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-20.21.33:381][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.10.03-20.21.33:464][921]LogSavePackage: Moving output files for package: /Game/MinigameLevel_Ashlyn
+[2026.10.03-20.21.33:464][921]LogSavePackage: Moving '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Saved/MinigameLevel_Ashlyn11364D02466C32E085203199D9EE4A03.tmp' to '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/MinigameLevel_Ashlyn.umap'
+[2026.10.03-20.21.33:474][921]LogFileHelpers: Saving map 'MinigameLevel_Ashlyn' took 0.132
+[2026.10.03-20.21.33:480][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 183.191 ms (total: 1.28 sec)
+[2026.10.03-20.21.33:508][921]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.03-20.21.33:508][921]LogContentValidation: Enabled validators:
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-20.21.33:508][921]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-20.21.33:508][921]AssetCheck: /Game/MinigameLevel_Ashlyn Validating asset
+[2026.10.03-20.21.39:796][257]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.420328 sec (time since issued).
+[2026.10.03-20.21.39:803][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-20.21.39:859][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VFXs/NS_Bloom] ([1] browsable assets)...
+[2026.10.03-20.21.39:859][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/VFXs/NS_Bloom]
+[2026.10.03-20.21.39:859][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VFXs/NS_Bloom" FILE="../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/VFXs/NS_Bloom.uasset" SILENT=true
+[2026.10.03-20.21.39:904][257]LogSavePackage: Moving output files for package: /Game/VFXs/NS_Bloom
+[2026.10.03-20.21.39:905][257]LogSavePackage: Moving '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Saved/NS_Bloom3DDAC20E4135EDB81C6BA797B6F2D2E2.tmp' to '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/VFXs/NS_Bloom.uasset'
+[2026.10.03-20.21.39:911][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.315 ms (total: 1.39 sec)
+[2026.10.03-20.21.40:024][257]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.114003 sec (time since issued).
+[2026.10.03-20.21.40:076][257]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.03-20.21.40:076][257]LogContentValidation: Enabled validators:
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-20.21.40:076][257]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-20.21.40:076][257]AssetCheck: /Game/VFXs/NS_Bloom Validating asset
+[2026.10.03-20.21.43:929][476]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.120055 sec (time since issued).
+[2026.10.03-20.21.43:937][476]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-20.21.43:976][476]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VFXs/NS_Bloom] ([1] browsable assets)...
+[2026.10.03-20.21.43:976][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/VFXs/NS_Bloom]
+[2026.10.03-20.21.43:976][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VFXs/NS_Bloom" FILE="../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/VFXs/NS_Bloom.uasset" SILENT=true
+[2026.10.03-20.21.44:019][476]LogSavePackage: Moving output files for package: /Game/VFXs/NS_Bloom
+[2026.10.03-20.21.44:021][476]LogSavePackage: Moving '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Saved/NS_Bloom4794BFC549B95B2760C1B1A5444A629B.tmp' to '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/VFXs/NS_Bloom.uasset'
+[2026.10.03-20.21.44:026][476]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.046 ms (total: 1.48 sec)
+[2026.10.03-20.21.44:142][476]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.116258 sec (time since issued).
+[2026.10.03-20.21.44:191][476]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.03-20.21.44:191][476]LogContentValidation: Enabled validators:
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-20.21.44:191][476]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-20.21.44:191][476]AssetCheck: /Game/VFXs/NS_Bloom Validating asset
+[2026.10.03-20.21.46:896][634]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.028353 sec (time since issued).
+[2026.10.03-20.21.46:912][635]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000141 sec (time since issued).
+[2026.10.03-20.21.46:995][640]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.21.49:299][777]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2026.10.03-20.21.59:546][777]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.21.59:554][777]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.21.59:554][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Total job queries 2,640, among them cache hits 1,249 (47.31%), DDC hits 559 (21.17%), Duplicates 228 (8.64%)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Tracking 1,163 distinct input hashes that result in 818 distinct outputs (70.34%)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: RAM used: 8.11 MiB of 1.60 GiB budget. Usage: 0.50%
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Shaders Compiled: 604
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Jobs assigned 604, completed 604 (100%)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Average time worker was idle: 52.15 s
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Time job spent in pending queue: average 0.32 s, longest 6.51 s
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Job execution time: average 1.09 s, max 9.04 s
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Job life time (pending + execution): average 1.41 s, max 9.30
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Shader code size: total 5.539 MiB, numShaders 655, average 8.659 KiB, min 1.167 KiB, max 97.793 KiB
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 76.87 s
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Jobs were issued in 545 batches (only local compilation was used), average 1.11 jobs/batch
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Average processing rate: 7.86 jobs/sec
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Total thread time: 268.027 s
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Total thread preprocess time: 29.254 s
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Percentage time preprocessing: 10.91%
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Effective parallelization: 3.49 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.290550
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 1.01 sec, max 2.17 sec, min 0.64 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.08% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.62% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                                  FVelocityPS - 8.54% of total time (compiled   43 times, average 0.53 sec, max 0.80 sec, min 0.34 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 7.09% of total time (compiled   33 times, average 0.58 sec, max 0.88 sec, min 0.45 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.30% of total time (compiled   52 times, average 0.27 sec, max 0.40 sec, min 0.16 sec)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Materials Translated:    287
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.21.59:561][777]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.21.59:595][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.10.03-20.21.59:643][777]LogAutomationController: Ignoring very large delta of 10.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.21.59:662][778]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.196466 sec (time since issued).
+[2026.10.03-20.21.59:684][779]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000691 sec (time since issued).
+[2026.10.03-20.22.00:038][786]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.22.30:228][564]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2026.10.03-20.22.34:571][564]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.22.34:576][564]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.22.34:576][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.22.34:603][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.03-20.22.34:625][564]LogAutomationController: Ignoring very large delta of 4.41 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.22.35:149][579]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.033547 sec (time since issued).
+[2026.10.03-20.22.35:165][580]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000144 sec (time since issued).
+[2026.10.03-20.22.35:248][585]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.22.35:919][625]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.10.03-20.22.46:918][625]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.22.46:924][625]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.22.46:924][625]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.22.46:967][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.10.03-20.22.47:013][625]LogAutomationController: Ignoring very large delta of 11.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.22.47:185][627]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.378218 sec (time since issued).
+[2026.10.03-20.22.47:201][628]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.001006 sec (time since issued).
+[2026.10.03-20.22.47:441][635]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.23.18:218][462]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3152.640625
+[2026.10.03-20.23.18:368][471]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-20.23.18:368][471]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3152.773682, Update Interval: 303.101898
+[2026.10.03-20.28.53:398][489]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3487.802246
+[2026.10.03-20.28.54:402][492]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-20.28.54:402][492]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3488.469238, Update Interval: 356.149170
+[2026.10.03-20.32.26:367][746]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.064590 sec (time since issued).
+[2026.10.03-20.32.26:384][747]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000133 sec (time since issued).
+[2026.10.03-20.32.26:466][752]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.32.31:182][ 34]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2026.10.03-20.32.42:807][ 34]LogDerivedDataCache: C:/Users/u1454489/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.03-20.32.49:391][ 34]LogStreaming: Display: FlushAsyncLoading(849): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.03-20.32.49:493][ 34]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.32.49:499][ 34]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.32.49:499][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.32.49:542][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.10.03-20.32.49:586][ 34]LogAutomationController: Ignoring very large delta of 18.42 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.32.49:996][ 42]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.572145 sec (time since issued).
+[2026.10.03-20.32.50:010][ 43]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.000592 sec (time since issued).
+[2026.10.03-20.32.50:142][ 50]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.33.49:625][589]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.InitializeParticle.Uniform Sprite Size' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.SpawnScript
+[2026.10.03-20.33.49:797][591]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.33.50:042][600]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.363918 sec (time since issued).
+[2026.10.03-20.33.51:814][703]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Total job queries 2,648, among them cache hits 1,252 (47.28%), DDC hits 559 (21.11%), Duplicates 228 (8.61%)
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Tracking 1,168 distinct input hashes that result in 822 distinct outputs (70.38%)
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: RAM used: 8.17 MiB of 1.60 GiB budget. Usage: 0.50%
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Shaders Compiled: 609
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Jobs assigned 609, completed 609 (100%)
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Average time worker was idle: 57.27 s
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Time job spent in pending queue: average 0.32 s, longest 6.51 s
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Job execution time: average 1.08 s, max 9.04 s
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Job life time (pending + execution): average 1.40 s, max 9.30
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Shader code size: total 5.603 MiB, numShaders 660, average 8.692 KiB, min 1.167 KiB, max 97.793 KiB
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 77.55 s
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Jobs were issued in 550 batches (only local compilation was used), average 1.11 jobs/batch
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Average processing rate: 7.85 jobs/sec
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Total thread time: 268.297 s
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Total thread preprocess time: 29.258 s
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Percentage time preprocessing: 10.90%
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Effective parallelization: 3.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.288304
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.33.59:593][168]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 1.01 sec, max 2.17 sec, min 0.64 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.07% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.61% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                                                  FVelocityPS - 8.54% of total time (compiled   43 times, average 0.53 sec, max 0.80 sec, min 0.34 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 7.08% of total time (compiled   33 times, average 0.58 sec, max 0.88 sec, min 0.45 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.30% of total time (compiled   52 times, average 0.27 sec, max 0.40 sec, min 0.16 sec)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: Materials Translated:    287
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.33.59:594][168]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.34.08:667][709]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.InitializeParticle.Lifetime' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.SpawnScript
+[2026.10.03-20.34.08:776][711]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.34.08:983][719]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.259402 sec (time since issued).
+[2026.10.03-20.34.10:791][825]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.34.22:428][516]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.03-20.35.31:071][585]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.35.31:344][595]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.325182 sec (time since issued).
+[2026.10.03-20.35.33:093][697]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.35.33:304][709]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.281155 sec (time since issued).
+[2026.10.03-20.35.35:106][817]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.35.44:518][379]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3898.891846
+[2026.10.03-20.35.44:635][386]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-20.35.44:636][386]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3898.991699, Update Interval: 307.776733
+[2026.10.03-20.35.50:733][748]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.AddVelocity.Velocity Speed' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.SpawnScript
+[2026.10.03-20.35.50:893][750]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.35.51:232][766]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.375888 sec (time since issued).
+[2026.10.03-20.35.52:898][865]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.36.24:043][708]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.36.24:372][724]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.448481 sec (time since issued).
+[2026.10.03-20.36.26:059][823]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Total job queries 2,658, among them cache hits 1,256 (47.25%), DDC hits 559 (21.03%), Duplicates 228 (8.58%)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Tracking 1,174 distinct input hashes that result in 828 distinct outputs (70.53%)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: RAM used: 8.32 MiB of 1.60 GiB budget. Usage: 0.51%
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Shaders Compiled: 615
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Jobs assigned 615, completed 615 (100%)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Average time worker was idle: 57.31 s
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Time job spent in pending queue: average 0.32 s, longest 6.51 s
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 9.04 s
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Job life time (pending + execution): average 1.39 s, max 9.30
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Shader code size: total 5.749 MiB, numShaders 666, average 8.84 KiB, min 1.167 KiB, max 97.793 KiB
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 78.89 s
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Jobs were issued in 556 batches (only local compilation was used), average 1.11 jobs/batch
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Average processing rate: 7.80 jobs/sec
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Total thread time: 268.855 s
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Total thread preprocess time: 29.265 s
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Percentage time preprocessing: 10.88%
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Effective parallelization: 3.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.283996
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 1.01 sec, max 2.17 sec, min 0.64 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.05% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.60% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                                  FVelocityPS - 8.52% of total time (compiled   43 times, average 0.53 sec, max 0.80 sec, min 0.34 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 7.07% of total time (compiled   33 times, average 0.58 sec, max 0.88 sec, min 0.45 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.29% of total time (compiled   52 times, average 0.27 sec, max 0.40 sec, min 0.16 sec)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Materials Translated:    287
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.36.59:605][810]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.39.56:548][397]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.39.57:006][423]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.495077 sec (time since issued).
+[2026.10.03-20.39.58:564][515]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Total job queries 2,660, among them cache hits 1,256 (47.22%), DDC hits 559 (21.02%), Duplicates 228 (8.57%)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Tracking 1,176 distinct input hashes that result in 830 distinct outputs (70.58%)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: RAM used: 8.37 MiB of 1.60 GiB budget. Usage: 0.51%
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Shaders Compiled: 617
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Jobs assigned 617, completed 617 (100%)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Average time worker was idle: 57.88 s
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Time job spent in pending queue: average 0.32 s, longest 6.51 s
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 9.04 s
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Job life time (pending + execution): average 1.39 s, max 9.30
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Shader code size: total 5.792 MiB, numShaders 668, average 8.88 KiB, min 1.167 KiB, max 97.793 KiB
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 79.31 s
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Jobs were issued in 558 batches (only local compilation was used), average 1.11 jobs/batch
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Average processing rate: 7.78 jobs/sec
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Total thread time: 269.028 s
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Total thread preprocess time: 29.266 s
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Percentage time preprocessing: 10.88%
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Effective parallelization: 3.39 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.282658
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 1.01 sec, max 2.17 sec, min 0.64 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.04% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.59% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                                  FVelocityPS - 8.51% of total time (compiled   43 times, average 0.53 sec, max 0.80 sec, min 0.34 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 7.07% of total time (compiled   33 times, average 0.58 sec, max 0.88 sec, min 0.45 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.28% of total time (compiled   52 times, average 0.27 sec, max 0.40 sec, min 0.16 sec)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Materials Translated:    287
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.39.59:614][578]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.40.05:155][908]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.ScaleColor.Scale RGB' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.SpawnScript
+[2026.10.03-20.40.05:155][908]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.ScaleColor.Scale RGB' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.UpdateScript
+[2026.10.03-20.40.05:320][910]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.40.05:508][917]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.305430 sec (time since issued).
+[2026.10.03-20.40.07:331][ 26]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.40.21:821][888]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.Multiply_Vector.A' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.SpawnScript
+[2026.10.03-20.40.21:821][888]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.Multiply_Vector.A' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.UpdateScript
+[2026.10.03-20.40.22:109][890]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.40.22:247][895]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.381287 sec (time since issued).
+[2026.10.03-20.40.24:110][  5]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.40.27:236][191]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.Multiply_Vector.B' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.SpawnScript
+[2026.10.03-20.40.27:236][191]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.Multiply_Vector.B' from Script NiagaraScript /Game/VFXs/NS_Bloom.NS_Bloom:SimpleSpriteBurst.UpdateScript
+[2026.10.03-20.40.27:344][193]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.40.27:628][203]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.347726 sec (time since issued).
+[2026.10.03-20.40.29:349][301]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.40.37:146][760]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.03-20.40.38:977][864]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.03-20.40.56:311][884]120529_NS_Bloom_MessageLog: System compile status unknown.
+[2026.10.03-20.40.56:739][905]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.454774 sec (time since issued).
+[2026.10.03-20.40.58:312][999]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.41.10:221][693]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.41.34:692][159]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4248.982422
+[2026.10.03-20.41.34:826][167]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.03-20.41.34:826][167]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4249.099121, Update Interval: 340.872223
+[2026.10.03-20.41.45:830][827]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2026.10.03-20.41.55:835][827]LogSlate: Window 'Add Emitter to your System' being destroyed
+[2026.10.03-20.41.55:840][827]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2026.10.03-20.41.55:841][827]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.03-20.41.55:882][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.10.03-20.41.55:932][828]LogAutomationController: Ignoring very large delta of 10.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.03-20.41.56:279][837]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.577204 sec (time since issued).
+[2026.10.03-20.41.56:294][838]LogNiagara: Compiling System NiagaraSystem /Game/VFXs/NS_Bloom.NS_Bloom took 0.001053 sec (time since issued).
+[2026.10.03-20.41.56:471][847]120529_NS_Bloom_MessageLog: System successfully compiled.
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Total job queries 2,672, among them cache hits 1,256 (47.01%), DDC hits 559 (20.92%), Duplicates 228 (8.53%)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Tracking 1,188 distinct input hashes that result in 840 distinct outputs (70.71%)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: RAM used: 8.56 MiB of 1.60 GiB budget. Usage: 0.52%
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Shaders Compiled: 629
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Jobs assigned 629, completed 629 (100%)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Average time worker was idle: 59.02 s
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Time job spent in pending queue: average 0.31 s, longest 6.51 s
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 9.04 s
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Job life time (pending + execution): average 1.36 s, max 9.30
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Shader code size: total 6.016 MiB, numShaders 680, average 9.06 KiB, min 1.167 KiB, max 97.793 KiB
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 80.83 s
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Jobs were issued in 570 batches (only local compilation was used), average 1.10 jobs/batch
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Average processing rate: 7.78 jobs/sec
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Total thread time: 269.932 s
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Total thread preprocess time: 29.273 s
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Percentage time preprocessing: 10.84%
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Effective parallelization: 3.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 12 - 0.278281
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 2.14 sec, max 2.14 sec, min 2.14 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    5 times, average 1.27 sec, max 2.05 sec, min 0.72 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                               FHWRasterizePS (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 1.01 sec, max 2.17 sec, min 0.64 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.00% of total time (compiled   28 times, average 1.06 sec, max 1.19 sec, min 0.65 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 8.56% of total time (compiled    8 times, average 2.89 sec, max 4.11 sec, min 1.95 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                                  FVelocityPS - 8.48% of total time (compiled   43 times, average 0.53 sec, max 0.80 sec, min 0.34 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 7.04% of total time (compiled   33 times, average 0.58 sec, max 0.88 sec, min 0.45 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.26% of total time (compiled   52 times, average 0.27 sec, max 0.40 sec, min 0.16 sec)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: === Material stats ===
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Materials Translated:    287
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Material Translation Only: 0.05 s (36%)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: Material Cache Hits: 38 (13%)
+[2026.10.03-20.42.59:612][613]LogShaderCompilers: Display: ================================================
+[2026.10.03-20.45.24:038][272]Cmd: DELETE
+[2026.10.03-20.45.24:038][272]Cmd: ACTOR DELETE
+[2026.10.03-20.45.24:060][272]LogEditorActor: Deleted Actor: NiagaraActor
+[2026.10.03-20.45.24:079][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.10.03-20.45.24:085][272]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2026.10.03-20.45.24:757][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.03-20.45.24:854][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.10.03-20.45.24:938][309]LogSavePackage: Moving output files for package: /Game/MinigameLevel_Ashlyn
+[2026.10.03-20.45.24:939][309]LogSavePackage: Moving '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Saved/MinigameLevel_Ashlyn5503C00F4C8F730BE9D0A5AE3F0C1E6F.tmp' to '../../../../../../Users/u1454489/Documents/GitHub/UUOurBashMiniGame/BashMiniGame/Content/MinigameLevel_Ashlyn.umap'
+[2026.10.03-20.45.24:949][309]LogFileHelpers: Saving map 'MinigameLevel_Ashlyn' took 0.138
+[2026.10.03-20.45.24:955][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 197.776 ms (total: 1.67 sec)
+[2026.10.03-20.45.24:994][309]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.03-20.45.24:994][309]LogContentValidation: Enabled validators:
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.03-20.45.24:994][309]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.03-20.45.24:994][309]AssetCheck: /Game/MinigameLevel_Ashlyn Validating asset
