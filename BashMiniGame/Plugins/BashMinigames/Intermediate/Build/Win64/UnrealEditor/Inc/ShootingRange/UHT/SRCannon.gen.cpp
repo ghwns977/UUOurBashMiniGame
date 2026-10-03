@@ -416,14 +416,14 @@ ASRCannon::~ASRCannon() {}
 // ********** End Class ASRCannon ******************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_Statics
+struct Z_CompiledInDeferFile_FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ASRCannon, ASRCannon::StaticClass, TEXT("ASRCannon"), &Z_Registration_Info_UClass_ASRCannon, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASRCannon), 3789940492U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_3474029235(TEXT("/Script/ShootingRange"),
-	Z_CompiledInDeferFile_FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_3474029235(TEXT("/Script/ShootingRange"),
+	Z_CompiledInDeferFile_FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h__Script_ShootingRange_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

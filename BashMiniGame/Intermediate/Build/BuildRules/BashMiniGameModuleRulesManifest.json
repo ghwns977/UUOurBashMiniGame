@@ -1,0 +1,18 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\BashCore\\Source\\BashCore\\BashCore.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\BashMinigames\\Source\\BashMinigames\\BashMinigames.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\BashMinigames\\Source\\ShootingRange\\ShootingRange.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\FCTween\\Source\\FCTween\\FCTween.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\JoyShockLibrary4Unreal\\Source\\JoyShockLibrary4Unreal\\JoyShockLibrary4Unreal.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBTAndroid\\LimbitlessBTAndroid.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBTWindows\\LimbitlessBTWindows.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBluetoothEditor\\LimbitlessBluetoothEditor.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\LimbitlessBluetoothPlugin\\LimbitlessBluetoothPlugin.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\LimbitlessBluetoothPlugin\\Source\\PlatformManager\\PlatformManager.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\MinigameCore\\Source\\MinigameCoreEditor\\MinigameCoreEditor.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\MinigameCore\\Source\\MinigameCore\\MinigameCore.Build.cs",
+		"C:\\Users\\henry\\Documents\\UUOurBashMiniGame\\BashMiniGame\\Plugins\\WinBT\\Source\\WinBT\\WinBT.Build.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

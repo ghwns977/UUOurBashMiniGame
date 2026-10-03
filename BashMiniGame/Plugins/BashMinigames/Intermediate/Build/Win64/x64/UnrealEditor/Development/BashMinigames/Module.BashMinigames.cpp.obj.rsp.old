@@ -1,12 +1,12 @@
-"C:/Users/nortm/Downloads/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp"
-@"C:/Users/nortm/Downloads/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/BashMinigames.Shared.rsp"
-/FI"C:/Users/nortm/Downloads/UnrealParty/Intermediate/Build/Win64/x64/werid_flexEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/FI"C:/Users/nortm/Downloads/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Definitions.BashMinigames.h"
-/Yu"C:/Users/nortm/Downloads/UnrealParty/Intermediate/Build/Win64/x64/werid_flexEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
-/Fp"C:/Users/nortm/Downloads/UnrealParty/Intermediate/Build/Win64/x64/werid_flexEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
-/Fo"C:/Users/nortm/Downloads/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp.obj"
-/experimental:log "C:/Users/nortm/Downloads/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp.sarif"
-/sourceDependencies "C:/Users/nortm/Downloads/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp.dep.json"
+"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp"
+@"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/BashMinigames.Shared.rsp"
+/FI"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Intermediate/Build/Win64/x64/werid_flexEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Definitions.BashMinigames.h"
+/Yu"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Intermediate/Build/Win64/x64/werid_flexEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Intermediate/Build/Win64/x64/werid_flexEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp.obj"
+/experimental:log "C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp.sarif"
+/sourceDependencies "C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/BashMinigames/Module.BashMinigames.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

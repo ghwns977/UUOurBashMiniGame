@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-ShootingRange.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Intermediate/Build/Win64/x64/werid_flexEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
-"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/ShootingRange/Module.ShootingRange.cpp.obj"
-"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/ShootingRange/Default.rc2.res"
-/OUT:"C:/Users/nortm/OneDrive/Documents/Github/Limbitless/UnrealParty/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/ShootingRange/UnrealEditor-ShootingRange.lib"
+"C:/Users/henry/Documents/UUOurBashMiniGame/BashMiniGame/Intermediate/Build/Win64/x64/UnrealEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/henry/Documents/UUOurBashMiniGame/BashMiniGame/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/ShootingRange/Module.ShootingRange.cpp.obj"
+"C:/Users/henry/Documents/UUOurBashMiniGame/BashMiniGame/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/ShootingRange/Default.rc2.res"
+/OUT:"C:/Users/henry/Documents/UUOurBashMiniGame/BashMiniGame/Plugins/BashMinigames/Intermediate/Build/Win64/x64/UnrealEditor/Development/ShootingRange/UnrealEditor-ShootingRange.lib"

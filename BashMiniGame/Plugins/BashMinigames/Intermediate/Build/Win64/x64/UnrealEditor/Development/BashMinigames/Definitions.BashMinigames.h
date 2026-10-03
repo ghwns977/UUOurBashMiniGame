@@ -13,8 +13,8 @@
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_4 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_5 0
 #define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_6 0
-#define UE_PROJECT_NAME werid_flex
-#define UE_TARGET_NAME werid_flexEditor
+#define UE_PROJECT_NAME BashMiniGame
+#define UE_TARGET_NAME UnrealEditor
 #define UE_MODULE_NAME "BashMinigames"
 #define UE_PLUGIN_NAME "BashMinigames"
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 

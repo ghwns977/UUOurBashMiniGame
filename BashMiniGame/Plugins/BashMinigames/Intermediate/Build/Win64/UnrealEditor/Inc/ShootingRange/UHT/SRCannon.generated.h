@@ -19,16 +19,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
 
 // ********** Begin Class ASRCannon ****************************************************************
-#define FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execFire); \
 	DECLARE_FUNCTION(execCanFire); \
 	DECLARE_FUNCTION(execGetCannonTargetRotation);
 
 
-#define FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_CALLBACK_WRAPPERS
+#define FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_CALLBACK_WRAPPERS
 SHOOTINGRANGE_API UClass* Z_Construct_UClass_ASRCannon_NoRegister();
 
-#define FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASRCannon(); \
 	friend struct Z_Construct_UClass_ASRCannon_Statics; \
@@ -39,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(ASRCannon)
 
 
-#define FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ASRCannon(ASRCannon&&) = delete; \
 	ASRCannon(const ASRCannon&) = delete; \
@@ -49,14 +49,14 @@ public: \
 	NO_API virtual ~ASRCannon();
 
 
-#define FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_15_PROLOG
-#define FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_GENERATED_BODY \
+#define FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_15_PROLOG
+#define FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_CALLBACK_WRAPPERS \
-	FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_ENHANCED_CONSTRUCTORS \
+	FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_CALLBACK_WRAPPERS \
+	FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -66,6 +66,6 @@ class ASRCannon;
 // ********** End Class ASRCannon ******************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_nortm_OneDrive_Documents_Github_Limbitless_UnrealParty_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h
+#define CURRENT_FILE_ID FID_Users_henry_Documents_UUOurBashMiniGame_BashMiniGame_Plugins_BashMinigames_Source_ShootingRange_Public_SRCannon_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
